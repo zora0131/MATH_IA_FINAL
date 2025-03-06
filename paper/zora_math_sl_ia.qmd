@@ -2,7 +2,7 @@
 title: "How does the arrival rate and service rate affect the average waiting time in a single-server queue using the M/M/1 model?"
 author: 
   - Ruiyi Liu
-thanks: "Code and data are available at: [https://github.com/zora0131/math_ia.git](https://github.com/zora0131/math_ia.git)."
+thanks: "Code and data are available at: [https://github.com/zora0131/MATH_IA_FINAL.git](https://github.com/zora0131/MATH_IA_FINAL.git)."
 date: today
 date-format: long
 format:
@@ -77,7 +77,7 @@ To test these relationships, a simulation in `R` was used to model different sce
 
 ## R Code Used
 Here are the `R` code we used to simulate the data. 
-```{r, echo=TRUE}
+```{r, echo=TRUE, message=FALSE}
 set.seed(123)
 library(dplyr)
 
